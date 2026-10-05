@@ -1,0 +1,59 @@
+media: media
+
+content:
+  - name: website
+    label: Website-Inhalte
+    type: file
+    path: data/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: site
+        label: Grunddaten
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: subtitle
+            label: Unterzeile
+            type: string
+          - name: tagline
+            label: Claim
+            type: string
+          - name: description
+            label: Meta-Beschreibung
+            type: text
+          - name: email
+            label: E-Mail
+            type: string
+      - name: hero
+        label: Startseite
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Hauptüberschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: primary_button
+            label: Primärer Button
+            type: string
+          - name: secondary_button
+            label: Sekundärer Button
+            type: string
+      - name: contact
+        label: Kontakt
+        type: object
+        fields:
+          - name: title
+            label: Überschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
