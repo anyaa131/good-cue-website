@@ -1,0 +1,245 @@
+# Pages CMS configuration for GOOD CUE.
+# Place this file in the ROOT of the GitHub repository.
+
+media:
+  input: media
+  output: /media
+  extensions: [png, jpg, jpeg, webp, svg]
+  categories: [image]
+  rename: safe
+
+content:
+  - name: website
+    label: Website-Inhalte
+    type: file
+    path: data/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: site
+        label: Grunddaten
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: subtitle
+            label: Unterzeile
+            type: string
+          - name: tagline
+            label: Claim
+            type: string
+          - name: description
+            label: Meta-Beschreibung
+            type: text
+          - name: email
+            label: E-Mail
+            type: string
+          - name: logo
+            label: Logo
+            type: image
+            options:
+              path: /
+              extensions: [png, jpg, jpeg, webp, svg]
+          - name: logo_alt
+            label: Logo-Alttext
+            type: string
+
+      - name: navigation
+        label: Navigation
+        type: object
+        fields:
+          - name: offers
+            label: Angebote
+            type: string
+          - name: about
+            label: Good Cue
+            type: string
+          - name: contact
+            label: Kontakt
+            type: string
+
+      - name: hero
+        label: Startbereich
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Hauptüberschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: primary_button
+            label: Primärer Button
+            type: string
+          - name: secondary_button
+            label: Sekundärer Button
+            type: string
+          - name: card_kicker
+            label: Karten-Kicker
+            type: string
+          - name: card_title
+            label: Karten-Titel
+            type: string
+          - name: card_text
+            label: Karten-Text
+            type: text
+
+      - name: offers
+        label: Angebote
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Überschrift
+            type: string
+          - name: intro
+            label: Einleitung
+            type: text
+          - name: small_note
+            label: Hinweis unter den Karten
+            type: string
+          - name: items
+            label: Angebotskarten
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: number
+                label: Nummer
+                type: string
+              - name: title
+                label: Titel
+                type: string
+              - name: text
+                label: Beschreibung
+                type: text
+              - name: bullets
+                label: Stichpunkte
+                type: string
+                list: true
+
+      - name: approach
+        label: Ansatz
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Überschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: values
+            label: Prinzipien
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - name: label
+                label: Begriff
+                type: string
+              - name: text
+                label: Erläuterung
+                type: string
+
+      - name: brand_section
+        label: GOOD CUE Abschnitt
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Überschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+
+      - name: contact
+        label: Kontakt
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kleine Überschrift
+            type: string
+          - name: title
+            label: Überschrift
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: label
+            label: Kontakt-Label
+            type: string
+          - name: placeholder_note
+            label: Hinweis
+            type: string
+
+      - name: legal
+        label: Rechtliches
+        type: object
+        fields:
+          - name: imprint_title
+            label: Impressum Überschrift
+            type: string
+          - name: imprint_body
+            label: Impressum Text
+            type: text
+          - name: privacy_title
+            label: Datenschutz Überschrift
+            type: string
+          - name: privacy_body
+            label: Datenschutz Text
+            type: text
+
+      - name: stats
+        label: Zahlen & Fakten
+        type: object
+        fields:
+          - name: enabled
+            label: Abschnitt anzeigen
+            type: boolean
+          - name: items
+            label: Zahlen
+            type: object
+            list:
+              min: 1
+              max: 6
+              collapsible:
+                collapsed: true
+                summary: "{number}"
+            fields:
+              - name: number
+                label: Zahl
+                type: string
+              - name: text
+                label: Erklärung
+                type: text
+          - name: source_note
+            label: Quellen-Hinweis
+            type: string
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "Website: create {path}"
+      update: "Website: update {path}"
+      delete: "Website: delete {path}"
+      rename: "Website: rename {oldPath} -> {newPath}"
