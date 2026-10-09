@@ -5,12 +5,12 @@
     "tagline": "Wissen, was zu tun ist.",
     "description": "Praxisnahe Bildung & Training für Erste Hilfe, Notfallmedizin und Kommunikation.",
     "email": "DEINE-EMAIL@BEISPIEL.DE",
-    "logo": "/media/good-cue-logo.png",
+    "logo": "/media/logo-klein-qud.png",
     "logo_alt": "GOOD CUE. – Bildung & Training"
   },
   "navigation": {
     "offers": "Angebote",
-    "about": "Good Cue",
+    "about": "Über Good Cue",
     "contact": "Kontakt"
   },
   "hero": {
@@ -26,13 +26,13 @@
   "offers": {
     "eyebrow": "ANGEBOTE",
     "title": "Bildung, die in der Praxis ankommt.",
-    "intro": "GOOD CUE. verbindet Fachwissen mit konkreter Anwendung – praxisnah, verständlich und auf die jeweilige Zielgruppe zugeschnitten.",
+    "intro": "GOOD CUE. verbindet Fachwissen mit konkreter Anwendung – praxisnah, verständlich und auf die jeweilige Zielgruppe zugeschnitten. Wenig Theorie, viel Praxis.",
     "small_note": "Weitere Formate und individuelle Trainingsangebote sind in Entwicklung.",
     "items": [
       {
         "number": "01",
         "title": "Erste Hilfe",
-        "text": "Praxisnahe Kurse für Privatpersonen, Gruppen, Betriebe und Vereine.",
+        "text": "Praxisnahe Kurse für Privatpersonen, Gruppen, Unternehmen und Vereine.",
         "bullets": [
           "Crashkurs Erste Hilfe",
           "Erste Hilfe am Kind & Baby",
@@ -66,23 +66,32 @@
   },
   "approach": {
     "eyebrow": "DER ANSATZ",
-    "title": "Keine Theorie um der Theorie willen.",
-    "text": "GOOD CUE. steht für Wissen, das in echten Situationen weiterhilft. Inhalte werden verständlich erklärt, praktisch trainiert und auf den jeweiligen Kontext zugeschnitten.",
+    "title": "Damit Wissen im entscheidenden Moment sitzt.",
+    "text": "GOOD CUE. steht für Wissen, das in echten Situationen weiterhilft. Inhalte werden verständlich erklärt, praktisch trainiert und auf den jeweiligen Kontext zugeschnitten. Aus Wissen wird Handlungssicherheit.",
     "values": [
-      { "label": "Praxis.", "text": "Wissen wird anwendbar." },
-      { "label": "Klarheit.", "text": "Komplexes wird verständlich." },
-      { "label": "Relevanz.", "text": "Trainiert wird, was wirklich gebraucht wird." }
+      {
+        "label": "Praxis.",
+        "text": "Wissen wird anwendbar."
+      },
+      {
+        "label": "Klarheit.",
+        "text": "Komplexes wird verständlich."
+      },
+      {
+        "label": "Relevanz.",
+        "text": "Trainiert wird, was wirklich gebraucht wird."
+      }
     ]
   },
   "brand_section": {
     "eyebrow": "GOOD CUE.",
     "title": "Ein guter Impuls kann den Unterschied machen.",
-    "text": "Ob Notfall, Teamkommunikation oder neue Herausforderung: Gute Bildung gibt nicht nur Wissen mit – sie schafft Sicherheit im Handeln."
+    "text": "Ob Notfall, Teamkommunikation oder neue Herausforderung: Gute Bildung verbindet Fachwissen, praktische Fähigkeiten und menschliche Kompetenzen."
   },
   "contact": {
     "eyebrow": "KONTAKT",
-    "title": "Du möchtest einen Kurs, Workshop oder eine individuelle Schulung anfragen?",
-    "text": "Schreib mir. GOOD CUE. befindet sich im Aufbau – individuelle Anfragen können bereits gesammelt und geplant werden.",
+    "title": "Sie möchten einen Kurs, Workshop oder eine individuelle Schulung anfragen?",
+    "text": "Schreiben Sie mir.  GOOD CUE. befindet sich im Aufbau – individuelle Anfragen können bereits gesammelt und geplant werden.",
     "label": "E-Mail",
     "placeholder_note": "Diese Adresse vor Veröffentlichung ersetzen."
   },
@@ -95,9 +104,18 @@
   "stats": {
     "enabled": true,
     "items": [
-      { "number": "90 %", "text": "der Fälle, in denen Erste-Hilfe-Kenntnisse gebraucht werden, betreffen das nahe Umfeld." },
-      { "number": "120.000+", "text": "plötzliche Herz-Kreislauf-Stillstände jährlich außerhalb von Krankenhäusern in Deutschland." },
-      { "number": "55 %", "text": "Laienreanimationsquote in Deutschland im Jahr 2024." }
+      {
+        "number": "90 %",
+        "text": "der Fälle, in denen Erste-Hilfe-Kenntnisse gebraucht werden, betreffen das nahe Umfeld."
+      },
+      {
+        "number": "120.000+",
+        "text": "plötzliche Herz-Kreislauf-Stillstände jährlich außerhalb von Krankenhäusern in Deutschland."
+      },
+      {
+        "number": "55 %",
+        "text": "Laienreanimationsquote in Deutschland im Jahr 2024."
+      }
     ],
     "source_note": "Quellen bitte auf der finalen Website ergänzen und vor Veröffentlichung prüfen."
   }
