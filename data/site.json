@@ -1,0 +1,138 @@
+{
+  "site": {
+    "name": "GOOD CUE.",
+    "subtitle": "BILDUNG & TRAINING",
+    "tagline": "Wissen, was zu tun ist.",
+    "description": "Praxisnahe Bildung für Erste Hilfe, Notfallmedizin und Kommunikation in Amberg und der Oberpfalz.",
+    "email": "DEINE-EMAIL@BEISPIEL.DE",
+    "logo": "/media/good-cue-logo.png",
+    "logo_alt": "GOOD CUE. – Bildung & Training"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "first_aid": "Erste Hilfe",
+    "emergency": "Notfallmedizin",
+    "team": "Kommunikation & Team",
+    "about": "Über GOOD CUE.",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "GOOD CUE. · BILDUNG & TRAINING",
+    "title": "Wissen, was zu tun ist.",
+    "text": "Praxisnahe Bildung für Erste Hilfe, Notfallmedizin und Kommunikation – damit Wissen nicht nur sitzt, sondern in echten Situationen funktioniert.",
+    "primary_button": "Angebote entdecken",
+    "secondary_button": "Anfrage stellen",
+    "card_kicker": "GOOD CUE",
+    "card_title": "Der richtige Impuls.",
+    "card_text": "Verständlich. Praxisnah. Auf den Punkt."
+  },
+  "offers": {
+    "eyebrow": "UNSERE ANGEBOTE",
+    "title": "Bildung, die in der Praxis ankommt.",
+    "intro": "GOOD CUE. verbindet Fachwissen mit praktischer Anwendung und menschlichen Kompetenzen – individuell, verständlich und auf die jeweilige Zielgruppe zugeschnitten.",
+    "small_note": "Die Trainings finden beim Kunden vor Ort oder an einem gemeinsam vereinbarten beziehungsweise organisierten Ort statt. Geplant ist ein Einsatzgebiet von ungefähr einer Stunde Fahrzeit ab Amberg.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Erste Hilfe & Reanimation",
+        "text": "Praxisnahe Trainings für Privatpersonen, Eltern, Gruppen, Vereine und Betriebe.",
+        "bullets": [
+          "Crashkurs Erste Hilfe",
+          "Erste Hilfe am Kind & Baby",
+          "Reanimation für Privatpersonen",
+          "Individuelle Kurse für Betriebe, Vereine & Gruppen"
+        ],
+        "href": "/erste-hilfe.html",
+        "image": "/media/first-aid-kit-watercolor.png",
+        "image_alt": "Handgemalte Erste-Hilfe-Tasche mit Verbandmaterial"
+      },
+      {
+        "number": "02",
+        "title": "Notfallmedizin",
+        "text": "Praxisorientiertes Training für medizinisches Fachpersonal und alle, die Notfallskills sicher anwenden möchten.",
+        "bullets": [
+          "Praxisnahe Notfalltrainings",
+          "AED-Kurse",
+          "Reanimationstraining",
+          "Individuelle Szenarien & praktische Übungen"
+        ],
+        "href": "/notfallmedizin.html",
+        "image": "/media/emergency-aed-stethoscope.png",
+        "image_alt": "Handgemalte Stethoskop- und AED-Illustration"
+      },
+      {
+        "number": "03",
+        "title": "Kommunikation & Team",
+        "text": "Training für Teams, die auch in herausfordernden Situationen klar kommunizieren und effektiv zusammenarbeiten möchten.",
+        "bullets": [
+          "Teambildende Maßnahmen",
+          "Kommunikation unter Druck",
+          "Notfall- & Unfallszenarien",
+          "Praktische Beispiele & Reflexion"
+        ],
+        "href": "/kommunikation-team.html",
+        "image": "/media/team-communication-watercolor.png",
+        "image_alt": "Handgemalte Illustration eines Teams im Gespräch"
+      }
+    ]
+  },
+  "approach": {
+    "eyebrow": "DER ANSATZ",
+    "title": "Wissen verstehen. Fähigkeiten trainieren. Sicherer handeln.",
+    "text": "GOOD CUE. steht für Bildung, die den Menschen in den Mittelpunkt stellt. Fachwissen, praktische Fähigkeiten und menschliche Kompetenzen werden verständlich vermittelt und auf den jeweiligen Kontext zugeschnitten – für mehr Sicherheit im Alltag, im Beruf und in herausfordernden Situationen.",
+    "values": [
+      {
+        "label": "Praxis.",
+        "text": "Wissen wird anwendbar."
+      },
+      {
+        "label": "Klarheit.",
+        "text": "Komplexes wird verständlich."
+      },
+      {
+        "label": "Relevanz.",
+        "text": "Trainiert wird, was wirklich gebraucht wird."
+      },
+      {
+        "label": "Sicherheit.",
+        "text": "Für echte Situationen."
+      }
+    ]
+  },
+  "brand_section": {
+    "eyebrow": "GOOD CUE.",
+    "title": "Ein guter Impuls kann den Unterschied machen.",
+    "text": "Ob Notfall, Teamkommunikation oder neue Herausforderung: Gute Bildung verbindet Fachwissen mit praktischer Anwendung und menschlichen Kompetenzen."
+  },
+  "contact": {
+    "eyebrow": "KONTAKT",
+    "title": "Lass uns ins Gespräch kommen.",
+    "text": "Du möchtest einen Kurs, Workshop oder eine individuelle Schulung anfragen? Schreib mir – gemeinsam finden wir das passende Format für deine Zielgruppe und Anforderungen.",
+    "label": "E-Mail",
+    "placeholder_note": "Bitte vor Veröffentlichung deine echte E-Mail-Adresse eintragen."
+  },
+  "legal": {
+    "imprint_title": "Impressum",
+    "imprint_body": "GOOD CUE.\\nBILDUNG & TRAINING\\n\\n[Name / Unternehmensbezeichnung ergänzen]\\n[Straße und Hausnummer]\\n[PLZ Ort]\\n\\nE-Mail: [E-Mail-Adresse]",
+    "privacy_title": "Datenschutz",
+    "privacy_body": "Diese Startversion enthält keine eingebundenen Analyse- oder Marketing-Tracker.\\n\\nDie finale Datenschutzerklärung muss vor Veröffentlichung an das tatsächlich verwendete Hosting, Kontaktformular, externe Dienste, Cookies und sonstige Datenverarbeitungen angepasst werden."
+  },
+  "stats": {
+    "enabled": false,
+    "items": [
+      {
+        "number": "90 %",
+        "text": "der Fälle, in denen Erste-Hilfe-Kenntnisse gebraucht werden, betreffen das nahe Umfeld."
+      },
+      {
+        "number": "120.000+",
+        "text": "plötzliche Herz-Kreislauf-Stillstände jährlich außerhalb von Krankenhäusern in Deutschland."
+      },
+      {
+        "number": "55 %",
+        "text": "Laienreanimationsquote in Deutschland im Jahr 2024."
+      }
+    ],
+    "source_note": "Quellen bitte auf der finalen Website ergänzen und vor Veröffentlichung prüfen."
+  }
+}
